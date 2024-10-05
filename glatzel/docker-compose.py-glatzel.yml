@@ -1,6 +1,3 @@
----
-version: '3.8'
-
 services:
   runner:
     image: glatzel-github-runner-win:latest
