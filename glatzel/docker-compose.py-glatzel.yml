@@ -4,7 +4,5 @@ version: '3.8'
 services:
   runner:
     image: glatzel-github-runner-win:latest
-    build:
-      context: .
-      args:
-        RUNNER_VERSION: '2.320.0'
+    env_file:
+      - ./py-glatzel.env
